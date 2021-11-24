@@ -1,0 +1,31 @@
+
+
+#hero {
+    height: 400px;
+    width: auto;
+    background-color: blanchedalmond;
+}
+
+.topNav {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 10px 20px;
+    font-size: larger;
+    gap: 5%;
+
+}
+
+#largeNav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 5%;
+}
+
+#largeNav .flex-box-item {
+
+}
