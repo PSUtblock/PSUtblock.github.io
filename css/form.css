@@ -2,7 +2,7 @@
 
 .contact-form{
     font-family: brother-1816-printed, sans-serif;
-    margin: auto;
+    margin:auto;
     border-style: none;
     border-width: 1px;
     border-radius: 10px;
@@ -10,7 +10,6 @@
     background-color: #343434;
     color: whitesmoke;
     height: 50%;
-    width:400px;
     text-align: center;
 }
 
@@ -35,11 +34,13 @@ input[type="submit"],input[type="reset"]
 {
     color: #343434;
     background-color: whitesmoke;
-    padding: 20px;
+    padding: 5px;
     border-radius: 10px;
     width: 45%;
     font-family: brother-1816-printed, sans-serif;
     font-size: larger;
+    max-width: 200px;
+    text-align: center;
 }
 
 textarea{
