@@ -1,0 +1,54 @@
+
+
+.contact-form{
+    font-family: brother-1816-printed, sans-serif;
+    margin: auto;
+    border-style: none;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #343434;
+    color: whitesmoke;
+    height: 50%;
+    width:400px;
+    text-align: center;
+}
+
+.form-element {
+    text-align: justify;
+    padding: 10px;
+}
+
+#message {
+   height: 200px;
+}
+
+input[type="text"], input[type="email"], textarea
+{
+    font-family: brother-1816-printed, sans-serif;
+    width: 100%;
+    height: 30px;
+    font-size:larger;
+}
+
+input[type="submit"],input[type="reset"]
+{
+    color: #343434;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    font-family: brother-1816-printed, sans-serif;
+    font-size: larger;
+}
+
+textarea{
+    resize:vertical;
+    height: auto;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover
+{
+    background-color: #F2A099;
+    cursor:pointer;
+}
