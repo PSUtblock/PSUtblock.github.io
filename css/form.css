@@ -14,12 +14,8 @@
 }
 
 .form-element {
-    text-align: left;
+    text-align: justify;
     padding: 10px;
-}
-
-#message {
-   height: 200px;
 }
 
 input[type="text"], input[type="email"], textarea
