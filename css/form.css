@@ -8,7 +8,6 @@
     background-color: #343434;
     color: whitesmoke;
     height: 50%;
-    text-align: center;
     min-width: 250px;
     max-width: 500px;
 }
@@ -16,6 +15,7 @@
 .form-element {
     text-align: left;
 }
+
 
 input[type="text"], input[type="email"], textarea
 {
