@@ -9,7 +9,7 @@ body {
     width: auto;
 }
 
-.topNav {
+.topNav, #resume-info {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -36,7 +36,7 @@ a:hover {
     color: whitesmoke;
 }
 
-#largeNav, #resume-info {
+#largeNav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
