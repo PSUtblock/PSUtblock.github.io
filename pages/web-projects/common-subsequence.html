@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="./css/sitestyle.css">
-        <link rel="stylesheet" href="https://use.typekit.net/dgp7jyk.css">
-
+        <title>Travis Block - Longest Subsequence Algorithm</title>
+        <link rel="stylesheet" href="../../css/sitestyle.css"/>
+        <script src="../../scripts/largestCommonSubsequence.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     </head>
     <body>
-        <header>
-            <nav>
-                <ul class="topNav">
-                    <li></li>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Resume</li>
-                    <li>Projects</li>
-                </ul>
-            </nav>
-        </header>
-        <div id="hero">
-            <h1>Travis Block</h1>
-        </div>
-        <div id="largeNav">
-            <div class="flex-item"><h2>About</h2></div>
-            <div class="flex-item"><h2>Resume</h2></div>
-            <div class="flex-item"><h2>Projects</h2></div>
-        </div>
-        <footer>
-
-        </footer>
+        <main>
+            <h1>Longest Common Subsequence Algorithim</h1>
+            <div class="contentbox">
+                <h2>About:</h2>
+                <p>This small application allows you to test and compare a bruteforce and dynamic methods of
+                finding the longest common subsequence of two strings. There is a limit to how many characters are allowed because the Bruteforce version of this algorithm will take a considerably long time to complete.</p>
+            </div>
+            <h2 class="heading">Bruteforce Method:</h2>
+            <section class="flex-container flex-container-1">
+                <div class="flex-item textinput">
+                    <div id="string1">
+                        <label for="first-string">String 1: (limit size of 20):</label>
+                        <input type="text" id="first-string" name="first-string"  maxlength="20" size="20">
+                    </div>
+                    <div id="string2">
+                        <label for="second-string">String 2: (limit size of 20):</label>
+                        <input type="text" id="second-string" name="second-string" maxlength="20" size="20">
+                    </div>
+                </div>
+                <div class="flex-item runbutton">
+                    <button class="button-type1" type="button">Run Test!</button>
+                </div>
+            </section>
+            <div class="contentbox bruteoutput">
+                <h2>Bruteforce Output:</h2>
+            </div>
+            <h2 class="heading">Dynamic Method:</h2>
+            <section class="flex-container flex-container-1">
+                <div class="flex-item textinput">
+                    <div id="dynamicstring1">
+                        <label for="third-string">String 1:</label>
+                        <input type="text" id="third-string" name="third-string" size="38">
+                    </div>
+                    <div id="dynamicstring2">
+                        <label for="fourth-string">String 2:</label>
+                        <input type="text" id="fourth-string" name="fourth-string" size="38">
+                    </div>
+                </div>
+                <div class="flex-item runbutton">
+                    <button class="button-type1" type="button">Run Test!</button>
+                </div>
+            </section>
+            <div class="contentbox dynamicoutput">
+                <h2>Dynamic Output:</h2>
+            </div>   
+        </main>
     </body>
-
 </html>

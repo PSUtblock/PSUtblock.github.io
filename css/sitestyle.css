@@ -3,6 +3,7 @@
 body {
     background-color: #F2A099;
 }
+
 #hero {
     height: 400px;
     width: auto;
@@ -22,6 +23,7 @@ body {
     font-style: italic;
 }
 
+
 .topNav .selected {
     color:whitesmoke;
 }
@@ -34,18 +36,20 @@ a:hover {
     color: whitesmoke;
 }
 
-#largeNav {
+#largeNav, .flex-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column;
     padding: 5%;
-}
-
-#largeNav .flex-box-item {
-
 }
 
 h1,p {
     font-family: brother-1816-printed, sans-serif;
+}
+
+img.float-left{
+    float:left;
+    padding: 20px;
+    border-radius: 20px;
 }
