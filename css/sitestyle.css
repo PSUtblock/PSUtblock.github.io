@@ -36,12 +36,13 @@ a:hover {
     color: whitesmoke;
 }
 
-#largeNav, .flex-container{
+#largeNav, #resume-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: row;
     padding: 5%;
+    font-family: brother-1816-printed, sans-serif;
 }
 
 h1,p {
