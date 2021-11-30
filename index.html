@@ -1,38 +1,129 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Travis Block - Home</title>
-        <link rel="stylesheet" href="./css/sitestyle.css">
-        <link rel="stylesheet" href="https://use.typekit.net/dgp7jyk.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travis Block - Home</title>
+    <link rel="stylesheet" href="./css/sitestyle.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navMenu">
+        <a class="navLogo" href="index.html"
+          ><img
+            src="./images/small-menu-icon.svg"
+            height="40px"
+            width="40px"
+            alt="Home"
+        /></a>
 
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul class="topNav">
-                    <li>img</li>
-                    <li class="selected">Home</li>
-                    <li><a href="./pages/about.html">About</a></li>
-                    <li><a href="./pages/resume.html">Resume</a></li>
-                    <li><a href="./pages/Projects.html">Projects</a></li>
-                    <li><a href="./pages/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div id="hero">
-            <h1>Travis Block</h1>
+        <div class="navBox">
+          <ul class="topNav">
+            <li><a class="navLink selected">Home</a></li>
+            <li><a class="navLink" href="#..">About</a></li>
+            <li><a class="navLink" href="#..">Resume</a></li>
+            <li><a class="navLink" href="#..">Projects</a></li>
+            <li><a class="navLink" href="#..">Contact</a></li>
+          </ul>
         </div>
-        <div id="largeNav">
-            <div class="flex-item"><h2>About</h2></div>
-            <div class="flex-item"><h2>Resume</h2></div>
-            <div class="flex-item"><h2>Projects</h2></div>
-        </div>
-        <footer>
-            <p>Made with love in 2021</p>
-        </footer>
-    </body>
+      </nav>
+    </header>
+    <div class="homeBanner">
+      <lottie-player class="shapes"
+        src="https://assets3.lottiefiles.com/packages/lf20_h74g1aiv.json"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+        alt="Banner image that says Travis Block with floating shapes."
+      ></lottie-player>
+      <lottie-player class="checkered"
+        src="https://assets5.lottiefiles.com/packages/lf20_ffhgo8yh.json"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+        alt="Banner image that says Travis Block with floating shapes."
+      ></lottie-player>
+    </div>
 
+    <main>
+      <h1>Welcome!</h1>
+      <p>
+        I am Travis Block, a computer science student at Portland State
+        Univeristy. This is my portfolio site that shares information about me
+        and some of the projects I am currently working on. I do not have much
+        content but I hope that in the next few years I will have many more
+        examples to share.
+      </p>
+      <br />
+      <h2>Future Goals as of November 2021:</h2>
+      <br />
+      <h3>Expanding on My Educational Content</h3>
+      <p>
+        A lot of my web development journey comes from my desires to tap more
+        into my ability of creating educational content. In my past I have been
+        an Instructional Designer and I have made quite a few trainings using
+        Adobe Captivate. Captivate is some pretty cool software and is built off
+        javascript, html, and other web focused tools. Additionaly, the
+        softwares interface is akin to that of PowerPoint, but with it's
+        simplicities came barriers that did not really allow me to be efficient
+        and speedy with my development. So I started looking more at the core of
+        the product to see what I could really do ungoverned by software
+        limitations. To say it has been a lot to take in is putting it lightly,
+        but I am confident that I will be able to accomplish what I would like
+        to do in more effective ways once I get the hang of everything.
+      </p>
+      <br />
+      <h3>Pushing my Animation</h3>
+      <p>
+        I am very new to web development, but I think it is an amazing way to
+        convey a message and share your style. I have been into animation for a
+        long time, but never really challenged myself to create my own. So, what
+        better platform to start? Thanks to my class project, I have developed
+        this site, and now I can use it as a playground to try new things. In
+        particular Animation! Aside from that, I am an educator, so I am hoping
+        to use everything I have learned to develop interesting learning content
+        that is accessible through the power of the world wide web!
+      </p>
+
+      <div id="largeNav">
+        <a href="#About">
+          <div class="navLink"><lottie-player
+            src="https://assets1.lottiefiles.com/packages/lf20_bqoneovy.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+            alt=""
+          ></lottie-player>
+          <h2>About Me</h2></div>
+        </a>
+        <a href="#Resume">
+          <div class="navLink">
+            <lottie-player
+              src="https://assets8.lottiefiles.com/packages/lf20_bwvdypdz.json"
+              background="transparent"
+              speed="2"
+              loop
+              autoplay
+              alt=""
+            ></lottie-player>
+            <h2>My Resume</h2></div></a>
+        <a href="#Project">
+          <div class="navLink">
+            <lottie-player
+            src="https://assets4.lottiefiles.com/packages/lf20_hkmfyq9f.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+            alt=""
+          ></lottie-player>
+            <h2>My Projects</h2></div></a>
+      </div>
+    </main>
+  </body>
 </html>

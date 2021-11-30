@@ -1,0 +1,49 @@
+
+
+#resume-info {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "a a"
+                         "e e"
+                         "s s"
+                         "k k"
+                         "i i"
+                         "w i";
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+
+  #resume-info>#about {
+      grid-area: a;
+  }
+  #resume-info>#education {
+      grid-area: e;
+  }
+
+  #resume-info>#previous-roles {
+      grid-area: w;
+  }
+
+  #resume-info>#skills{
+      grid-area: s;
+  }
+
+  #resume-info>#soft-skills {
+      grid-area: k;
+  }
+  
+  #resume-info>#interests {
+      grid-area: i;
+  }
+
+  @media (min-width:415px) and (max-width:1024px)
+{
+  .grid-container-2 {
+      grid-template-areas:  "a i"
+                            "s k"
+                            "e e"
+                            "w w";
+  }
+}
