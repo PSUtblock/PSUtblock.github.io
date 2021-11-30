@@ -121,7 +121,7 @@ div.flexContent a:hover h2{
         display: none;
     }
     .banner {
-      height: 200px;
+      height: 150px;
     }
 }
 
@@ -130,6 +130,10 @@ div.flexContent a:hover h2{
     .navBox{
        max-width: 275px;
         max-height: 75px;
+    }
+
+    .banner{
+      height: 200px;
     }
 
     .shapes {
