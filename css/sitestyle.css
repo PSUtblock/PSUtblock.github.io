@@ -105,7 +105,7 @@ lottie-player {
     width: 700px;
 }
 
-.largeNav {
+.flexContent {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -113,11 +113,11 @@ lottie-player {
   padding: 5%;
 }
 
-div.largeNav a:hover{
+div.flexContent a:hover{
   background-color: var(--black);
 }
 
-div.largeNav a:hover h2{
+div.flexContent a:hover h2{
   color:var(--white);
   padding-left: 10px;
 }
