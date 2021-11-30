@@ -1,6 +1,6 @@
 @import url("https://use.typekit.net/dgp7jyk.css"); /* for my custom fonts*/
 
-:root {
+/*:root {
   --white: whitesmoke;
   --black: #343434;
   --salmon: #f2a099;
@@ -16,18 +16,21 @@ body {
   font-family: brother-1816-printed, sans-serif;
   background-color: var(--salmon);
   color: var(--black);
-}
+}*/
 
 main {
     padding: 20px;
+    padding-top:20px;
 }
 
 .banner {
   height: 400px;
   width: auto;
+  padding-top: 100px;
+  min-height: 100px;
 }
 
-.navMenu {
+/*.navMenu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,14 +59,6 @@ main {
   color: var(--black);
 }
 
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 .navLink:hover {
   border-top:solid;
   border-bottom:solid;
@@ -81,17 +76,13 @@ a {
 
 lottie-player {
   margin: 0 auto;
-}
+} */
 
-.banner {
-  padding-top: 100px;
-  min-height: 100px;
-}
 .checkered {
   display: none;
 }
 
-.navBox {
+/*.navBox {
     width: 700px;
 }
 
@@ -110,13 +101,13 @@ div.flexContent a:hover{
 div.flexContent a:hover h2{
   color:var(--white);
   padding-left: 10px;
-}
+} */
 
 
 @media (max-width: 350px) {
-    .navMenu{
+  /*  .navMenu{
         gap: 10px;
-    }
+    }*/
     .shapes {
         display: none;
     }
@@ -127,10 +118,10 @@ div.flexContent a:hover h2{
 
 @media (min-width: 351px) and (max-width: 475px)
 {
-    .navBox{
+   /* .navBox{
        max-width: 275px;
         max-height: 75px;
-    }
+    }*/
 
     .banner{
       height: 200px;

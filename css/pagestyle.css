@@ -1,0 +1,173 @@
+@import url("https://use.typekit.net/dgp7jyk.css"); /* for my custom fonts*/
+
+:root {
+  --white: whitesmoke;
+  --black: #343434;
+  --salmon: #f2a099;
+}
+
+/* base elements */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: brother-1816-printed, sans-serif;
+  background-color: var(--salmon);
+  color: var(--black);
+}
+
+main {
+    padding: 20px;
+    padding-top: 100px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+lottie-player {
+  margin: 0 auto;
+}
+
+/*.banner {
+  height: 400px;
+  width: auto;
+}*/
+
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  border-bottom: solid;
+  border-bottom-color: var(--black);
+  border-bottom-width: 2px;
+  background-color: var(--salmon);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
+.topNav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+}
+
+.navLink {
+  font-size: larger;
+  font-style: italic;
+  color: var(--black);
+}
+
+.navLink:hover {
+  border-top:solid;
+  border-bottom:solid;
+  border-width: 2px;
+  padding-bottom: 3px;
+  border-color: var(--black);
+}
+
+.navLink.selected {
+  border-bottom:solid;
+  border-width: 2px;
+  padding-bottom: 3px;
+  border-color: var(--black);
+}
+
+/*.banner {
+  padding-top: 100px;
+  min-height: 100px;
+}
+.checkered {
+  display: none;
+} */
+
+.navBox {
+    width: 700px;
+}
+
+.flexContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.flexItem {
+  height: 40%;
+  max-width: 700px;
+  display: block;
+}
+
+.flexItem.image{
+  text-align:center;
+}
+
+.image img{
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  min-width:250px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+
+div.flexContent a:hover{
+  background-color: var(--black);
+}
+
+div.flexContent a:hover h2{
+  color:var(--white);
+  padding-left: 10px;
+}
+
+
+@media (max-width: 350px) {
+    .navMenu{
+        gap: 10px;
+    }
+   /* .shapes {
+        display: none;
+    }
+    .banner {
+      height: 150px;
+    }*/
+    main{
+      padding-top: 170px;
+    }
+}
+
+@media (min-width: 351px) and (max-width: 475px)
+{
+    .navBox{
+       max-width: 275px;
+        max-height: 75px;
+    }
+
+   /* .banner{
+      height: 200px;
+    }
+
+    .shapes {
+      display: none;
+    }
+    .checkered {
+      display: block;
+    }*/
+}
+
