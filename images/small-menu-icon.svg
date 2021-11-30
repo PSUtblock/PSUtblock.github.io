@@ -1,1 +1,7 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.46 22.08"><defs><style>.cls-1{font-size:15.54px;fill:#343434;font-family:Brother1816Printed-ExtraBold-Italic, "Brother 1816 Printed";font-style:italic;}</style></defs><text class="cls-1" transform="translate(0 13.37) scale(1.18 1)">T</text><text class="cls-1" transform="translate(6.15 16.71) scale(1.18 1)">B</text></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.46 22.08">
+    <defs>
+        <style>.cls-1{font-size:15.54px;fill:#343434;font-family:Brother1816Printed-ExtraBold-Italic, "Brother 1816 Printed";font-style:italic; src: url("https://use.typekit.net/dgp7jyk.css")}</style>
+    </defs>
+    <text class="cls-1" transform="translate(0 13.37) scale(1.18 1)">T</text>
+    <text class="cls-1" transform="translate(6.15 16.71) scale(1.18 1)">B</text>
+</svg>
