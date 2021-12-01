@@ -1,0 +1,42 @@
+@import "./pagestyle.css";
+
+main {
+  max-width: 1700px;
+}
+.flexContent {
+  justify-content: space-evenly;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.flexItem {
+  padding: 20px;
+  width: 333px;
+  min-width: 250px;
+}
+.flexItem.skills {
+  min-height: 268px;
+  border-radius: 20px;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.skills > ul > li {
+  list-style: inside;
+}
+
+@media (min-width: 716px) and (max-width: 1400px) {
+  main {
+    max-width: 800px;
+  }
+
+  .flexContent {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 715px) {
+  .flexContent {
+    justify-content: space-around;
+  }
+}

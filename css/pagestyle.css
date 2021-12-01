@@ -21,8 +21,10 @@ body {
 }
 
 main {
-    padding: 20px;
-    padding-top: 100px;
+  max-width: 1200px;
+  padding: 20px;
+  padding-top: 100px;
+  margin: auto;
 }
 
 li {
@@ -37,11 +39,6 @@ lottie-player {
   margin: 0 auto;
 }
 
-/*.banner {
-  height: 400px;
-  width: auto;
-}*/
-
 .navMenu {
   display: flex;
   justify-content: space-between;
@@ -55,6 +52,7 @@ lottie-player {
   z-index: 1;
   width: 100%;
   height: auto;
+  margin: auto;
 }
 
 .topNav {
@@ -72,30 +70,22 @@ lottie-player {
 }
 
 .navLink:hover {
-  border-top:solid;
-  border-bottom:solid;
+  border-top: solid;
+  border-bottom: solid;
   border-width: 2px;
   padding-bottom: 3px;
   border-color: var(--black);
 }
 
 .navLink.selected {
-  border-bottom:solid;
+  border-bottom: solid;
   border-width: 2px;
   padding-bottom: 3px;
   border-color: var(--black);
 }
 
-/*.banner {
-  padding-top: 100px;
-  min-height: 100px;
-}
-.checkered {
-  display: none;
-} */
-
 .navBox {
-    width: 700px;
+  width: 700px;
 }
 
 .flexContent {
@@ -112,62 +102,41 @@ lottie-player {
   display: block;
 }
 
-.flexItem.image{
-  text-align:center;
+.flexItem.image {
+  text-align: center;
 }
 
-.image img{
+.image img {
   height: auto;
   width: 100%;
   max-width: 400px;
   max-height: 400px;
-  min-width:250px;
+  min-width: 250px;
   padding: 20px;
   border-radius: 30px;
 }
 
-
-div.flexContent a:hover{
+div.flexContent a:hover {
   background-color: var(--black);
 }
 
-div.flexContent a:hover h2{
-  color:var(--white);
+div.flexContent a:hover h2 {
+  color: var(--white);
   padding-left: 10px;
 }
 
-
 @media (max-width: 350px) {
-    .navMenu{
-        gap: 10px;
-    }
-   /* .shapes {
-        display: none;
-    }
-    .banner {
-      height: 150px;
-    }*/
-    main{
-      padding-top: 170px;
-    }
+  .navMenu {
+    gap: 10px;
+  }
+  main {
+    padding-top: 170px;
+  }
 }
 
-@media (min-width: 351px) and (max-width: 475px)
-{
-    .navBox{
-       max-width: 275px;
-        max-height: 75px;
-    }
-
-   /* .banner{
-      height: 200px;
-    }
-
-    .shapes {
-      display: none;
-    }
-    .checkered {
-      display: block;
-    }*/
+@media (min-width: 351px) and (max-width: 475px) {
+  .navBox {
+    max-width: 275px;
+    max-height: 75px;
+  }
 }
-

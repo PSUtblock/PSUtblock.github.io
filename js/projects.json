@@ -1,0 +1,24 @@
+{
+    "projectList": [
+        {
+            "title": "Html and Css Cheat Sheet",
+            "link": "https://github.com/itssoma/htmlcheatsheet",
+            "description": "I am working on an HTML and CSS cheat sheet that share some of the most common elements and attributes I typically use. I often just forget, so buildint my own resource seemed useful. Still a work in Progress!"
+        },
+        {
+            "title": "Russian Flashcards",
+            "link": "https://pyc-key.s3.us-west-2.amazonaws.com/Lesson+1/Vocabulary+Flashcards/Numbers+0-10+-+Flashcards/index.html",
+            "description": "This is an example of one of my Adobe Captivate Projects. Adobe Captivate is content creation software often used for trainings. If you have taken an online training it was probably made with Captivate. This is a flashcard project I made. I pushed Captivate to the limits of what it coudld do, and ultimately while I found my path to my solution, it is a very tedious one. That process is what inspired me to take a web development class, because I believe I can find a better way with the knowledge."
+        },
+        {
+            "title": "Largest Common Subsequence",
+            "link": "https://github.com/PSUtblock/largestSubsequence",
+            "description": "This is a small web program I am making that when given two strings, it will find the largest common subsequence between them. I use a bruteforce method, wich is awfully slow, and a dynamic method that is really fast! Still a work in progress, but fun to work on none the less."
+        },
+        {
+            "title": "Mixed Messages",
+            "link": "https://github.com/itssoma/Mixed_Messages",
+            "description": "Mixed Messages is a small javascript project that provides a simple sentence in English, and translates it into Russian. It is one of my early projects that a learning site called, Codecademy prompted me to create."
+        }
+    ]
+}
