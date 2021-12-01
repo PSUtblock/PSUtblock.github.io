@@ -1,6 +1,12 @@
 Portfolio Personal Site
 ===
 
+This is my first real attempt at building a website site. This project was for my Introduction to Web Development Class taught at Portland State University.
+
+For a first attempt, I have impressed with my design and I hope to continue developing the page over the years as it is a great platform to show off other projects
+
+While I did not implement too much, I did use one thing out of the sort of vanilla html,css,and javascript.
+
 ## Resources Beyond css,javascript,html
 The only aspect that you would have to consider importing is the source for Lottie files to handle the animations. All of the documentation can be found at:
 
