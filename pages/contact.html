@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travis Block - Resume</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="../css/pagestyle.css" />
+    <link rel="stylesheet" href="../css/formstyle.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navMenu">
+        <a class="navLogo" href="../index.html"
+          ><img
+            src="../images/small-menu-icon.svg"
+            height="40px"
+            width="40px"
+            alt="Home"
+        /></a>
+
+        <div class="navBox">
+          <ul class="topNav">
+            <li><a class="navLink" href="../index.html">Home</a></li>
+            <li><a class="navLink" href="./about.html">About</a></li>
+            <li><a class="navLink" href="./resume.html">Resume</a></li>
+            <li><a class="navLink" href="./projects.html">Projects</a></li>
+            <li><a class="navLink selected" >Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact</h1>
+      <div class="contactForm">
+        <form>
+          <div class="formElement nameEmail">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" maxlength="50"/>
+            </div>
+            <br />
+            <div class="formElement">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <br />
+            <div class="formElement">
+              <label for="message">Message:</label>
+              <br />
+              <textarea rows="8" col="50" name="message"></textarea>
+            </div>
+            <br />
+            <div class="submitButtons">
+              <input class="btn-primary" type="submit" value="Submit" />
+              <input class="btn-secondary" type="reset" value="Reset" />
+            </div>
+            <br />
+      <p>This is the best way to get ahold of me and I respond to message quickly! Sorry, I do not use any social media platform.</p>
+        </form>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script defer src="../js/projectImport.js"></script>
+  </body>
+</html>
